@@ -11,20 +11,20 @@ const screens={
         screen: Login,
         navigationOptions:({navigation})=>{
             return{ 
-                headerTitle:()=><Header navigation={navigation} title='Home Wunderlist' />
+                headerTitle:()=><Header navigation={navigation} title='Login Wunderlist' />
             }
         }
     }, 
     Register:{
         screen: Register,
         navigationOptions:{
-            title:'ReviewDetails miWunderlist',
+            title:'Register Wunderlist',
             
         }
     }
 }
 
-const HomeStack=createStackNavigator(screens,{
+const LoginStack=createStackNavigator(screens,{
     defaultNavigationOptions:{
         headerTintColor:'white',
         headerStyle:{backgroundColor:'coral',height:110}

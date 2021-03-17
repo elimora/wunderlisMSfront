@@ -10,11 +10,9 @@ export default function About(){
                 <Text style={styles.rating} >Abouts:</Text>
                 <Image style={styles.rating} source={require('../assets/wunderlist.jpg')}/>
             </View>
-            <Text style={globalStyles.titleText}>Nuestra WunderListMS App, es una aplicación
-                diseñada para organizar tus tareas. Es posible ordenar las miasmas 
-                 ya que puedes listar, agregar, actualizar y borrar las actividades 
-                 pendientes para llevar un control fectivo de tu itinerario. También cuenta con un sistema de calificación de prioridades que te ayudan a recordar que tan urgente es la tarea.Esta 
-                 es la filosofía de nuestro WunderListMS que ahora también es tuya, 
+            <Text style={globalStyles.titleText}>WunderListMS App, es una aplicación
+                diseñada para organizar tus actividades.Esta 
+                 es la filosofía de nuestro administrador de tareas que ahora también es tuyo, 
                 Bienvenidos...
             </Text>
         </View>
