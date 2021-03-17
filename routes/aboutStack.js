@@ -10,7 +10,7 @@ const screens={
         screen: About,
         navigationOptions:({navigation})=>{
             return{ 
-                headerTitle:()=><Header navigation={navigation} title='About Wonderlist'/>
+                headerTitle:()=><Header navigation={navigation} title='About Wunderlist'/>
             }
         }
     }, 

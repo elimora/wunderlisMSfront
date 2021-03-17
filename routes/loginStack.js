@@ -1,22 +1,22 @@
 import { createStackNavigator } from "react-navigation-stack";
-import Home from "../screens/home";
-import ReviewDetails from "../screens/reviewDetails";
+import Login from "../screens/login";
+import Register from "../screens/register";
 import  Header  from "../SHARED/header";
 import React from "react";
 
 
 const screens={
   
-    Home:{
-        screen: Home,
+    Login:{
+        screen: Login,
         navigationOptions:({navigation})=>{
             return{ 
                 headerTitle:()=><Header navigation={navigation} title='Home Wunderlist' />
             }
         }
     }, 
-    ReviewDetails:{
-        screen: ReviewDetails,
+    Register:{
+        screen: Register,
         navigationOptions:{
             title:'ReviewDetails miWunderlist',
             
@@ -31,4 +31,4 @@ const HomeStack=createStackNavigator(screens,{
     }
 }); 
 
-export default HomeStack; 
+export default LoginStack;   

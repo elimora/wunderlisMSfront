@@ -1,9 +1,10 @@
 import React from 'react'; 
 import { StyleSheet,View,Text, Image } from "react-native";
-import { globalStyles } from "../styles/global";
+import { globalStyles,images } from "../styles/global";
 import Card from "../SHARED/card";
 
 export default function ReviewDetails ({navigation}){
+    const rating=navigation.getParam('rating')
    
     return(
         <View style={globalStyles.container}>
@@ -11,7 +12,8 @@ export default function ReviewDetails ({navigation}){
            <Text>{navigation.getParam('title')}</Text>
             <Text>{navigation.getParam('body')}</Text>
             <View style={styles.rating}>
-                <Text>Wolderlist Ratin</Text>
+                <Text>Prioridad:</Text>
+                <Image source={images.ratings[rating]}/>
             </View>
            </Card>
         </View>

@@ -30,3 +30,13 @@ export const globalStyles= StyleSheet.create({
         textAlign:'center'
     }
 }); 
+
+export const images = {
+    ratings:{
+        '1': require('../assets/rating1.png'),
+        '2': require('../assets/rating2.png'),
+        '3': require('../assets/rating3.png'),
+        '4': require('../assets/rating4.png'),
+        '5': require('../assets/rating5.png'),
+    }
+}
